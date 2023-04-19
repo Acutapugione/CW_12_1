@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% block content %}
+<div class="reg_h1">Реєстрація</div>
+<div class="container row row-cols-2">
+    <div class="col">
+        <form class="container" action="" method="post" novalidate>
+            <div class="row">
+                <div class="mb-3 input-group justify-content-md-center">
+                    {{ form.name.label(class_="form-label") }} {{
+                    form.name(class_="form-control w-50") }}
+                </div>
+
+                <div class="mb-3 input-group justify-content-md-center">
+                    {{ form.password.label(class_="form-label") }} {{
+                    form.password(class_="form-control w-50") }}
+                </div>
+                <div class="mb-3 input-group justify-content-md-center">
+                    {{ form.password_confirm.label(class_="form-label") }} {{
+                    form.password_confirm(class_="form-control w-50") }}
+                </div>
+
+                <div class="mb-3 input-group justify-content-md-center">
+                    {{ form.submit(class_="btn btn-success") }}
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col">
+        <img class="img-fluid" src="../static/photo.jpg" alt="photo.jpg" srcset="" />
+        <!-- <div class="frame"></div> -->
+    </div>
+</div>
+
+{% endblock %}

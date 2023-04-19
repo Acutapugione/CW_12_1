@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1 class="reg_h1">Вхід</h1>
+<form class="reg_form" action="" method="post">
+  <label for="name">Ім'я:</label>
+  <input class="reg_input" type="text" id="name" name="name" /><br />
+  <label for="email">E-mail:</label>
+  <input class="reg_input" type="email" id="email" name="email" /><br />
+  <label for="password">Пароль:</label>
+  <input class="reg_input" type="password" id="password" name="password" /><br />
+  <input class="reg_input_submit" type="submit" value="Увійти" />
+</form>
+<div class="frame"></div>
+{% endblock %}

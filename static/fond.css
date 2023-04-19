@@ -1,0 +1,62 @@
+* {
+  font-family: "Ubuntu Mono", monospace !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white !important;
+}
+
+h1 {
+  font-size: 145px !important;
+}
+
+h2 {
+  font-size: 95px !important;
+}
+
+h3 {
+  font-size: 95px !important;
+}
+
+body {
+  background-image: url("photo.jpg");
+  background-size: 1950px;
+}
+nav {
+  display: block;
+}
+
+nav > div {
+  position: absolute;
+  right: 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 95%;
+}
+
+.img-fluid {
+  border: 2px solid black;
+  object-fit: none;
+  object-position: -730px -150px;
+}
+
+.breadcrumb {
+  --bs-breadcrumb-divider-color: var(--bs-body-bg) !important;
+}
+
+.breadcrumb-item.active {
+  color: white !important;
+}
+
+.pt-5 {
+  padding-top: 10rem!important;
+}
